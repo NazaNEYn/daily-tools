@@ -11,30 +11,6 @@ This repository provides practical tools for everyday file management and produc
 - Python 3.6 or higher
 - No external dependencies required
 
-## Scripts
-
-### rename_bulk.py
-
-Bulk rename files in a directory with a custom prefix or timestamp.
-
-**Usage:**
-```bash
-python rename_bulk.py
-```
-
-**Features:**
-- Interactive prompts for directory and prefix selection
-- Automatic timestamp generation if no prefix provided
-- Validates directory existence before processing
-- Reports number of files renamed
-
-**Example:**
-```
-Enter folder path (leave blank for current directory): /path/to/files
-Enter prefix (leave blank for timestamp): vacation_
-Renamed 15 files with prefix 'vacation_' in '/path/to/files'
-```
-
 ## Contributing
 
 1. Fork the repository
