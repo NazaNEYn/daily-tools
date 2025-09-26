@@ -2,7 +2,7 @@ from hourglass_art import HOURGLASS_STAGES
 
 
 def display_hourglass(current_day, total_days):
-
+    """Display the hourglass art based on current progress."""
     if total_days == 0:
         percentage = 0
     else:

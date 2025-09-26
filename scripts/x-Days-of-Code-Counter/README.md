@@ -6,7 +6,7 @@ A simple Python-based command-line tool to track your progress for a coding chal
 
 * **Counts Down**: Shows how many days are left in your challenge.
 
-* **Easy to Us**e: A simple, interactive terminal interface.
+* **Easy to Use**: A simple, interactive terminal interface.
  <hr>
 
 
@@ -20,11 +20,11 @@ The program will ask you to enter the total number of days for your challenge. A
 ## Project Files
 * `main.py`: The main program that runs the counter.
 
-* `count_up.py`: A class to handle counting up.
+* `counter.py`: Classes to handle counting up and down.
 
-* `count_down.py`: A class to handle counting down.
+* `hourglass_art.py`: ASCII art for hourglass stages.
 
-* `progressbar_art.py`: progress bar art
+* `hourglass_progress.py`: Function to display progress art.
 <hr>
 
 
