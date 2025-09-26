@@ -1,5 +1,8 @@
-from temperature_conversions import fahrenheit_to_celsius
-from length_conversions import miles_to_km, inches_to_centimeter
+from unit_converter.utils import (
+    miles_to_km,
+    inches_to_centimeter,
+    fahrenheit_to_celsius,
+)
 
 # main.py
 
