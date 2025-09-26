@@ -1,6 +1,5 @@
-from count_up import CounterUp
-from count_down import CounterDown
-from progressbar_art import create_progress_bar
+from counter import CounterDown, CounterUp
+from hourglass_progress import display_hourglass
 
 while True:
     try:
@@ -28,7 +27,7 @@ while is_counting:
 
         is_counting = up_result and down_result
 
-        print(create_progress_bar(counter_up.num_up, user_max_day))
+        display_hourglass(counter_up.num_up, user_max_day)
         print(f"#{user_max_day}DaysOfCode")
     else:
         print("Invalid input. Try Again!")
