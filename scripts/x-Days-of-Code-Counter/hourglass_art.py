@@ -1,3 +1,5 @@
+# List of ASCII art stages for the hourglass progress display.
+
 HOURGLASS_STAGES = [
     """
 --- 0% Complete ---
